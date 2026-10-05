@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 40px;
+  background: #f4f4f4;
+}
+
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #e74c3c;
+}
+
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  border-radius: 50%;
+}
+
+
+.capsule {
+  width: 160px;
+  height: 70px;
+  background-color: #2ecc71;
+  border-radius: 100px;
+}
+
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #f39c12;
+}
+
