@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+
+.swatches {
+  display: flex;
+  gap: 15px;
+}
+
+.swatch {
+  width: 110px;
+  height: 110px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.named { background-color: tomato; }
+.hex   { background-color: #3498db; }
+.rgb   { background-color: rgb(46, 204, 113); }
+.rgba  { background-color: rgba(155, 89, 182, 0.5); }
+
+
+.stage {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  background-color: #f39c12;
+}
+
+.box {
+  width: 220px;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.box-opacity {
+  background-color: rgb(0, 0, 255);
+  opacity: 0.5;
+}
+
+
+.box-rgba {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
